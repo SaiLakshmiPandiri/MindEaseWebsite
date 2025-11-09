@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindEase AI - Real-Time Mental Health Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MindEase AI</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Real-Time Mental Health Support Anytime, Anywhere – Powered by AI</h1>
+            <p>Manage stress, anxiety, and loneliness with personalized coping strategies, mood tracking, and 24/7 access.</p>
+            <button onclick="scrollToSection('demo')">Try Free Demo</button>
+        </div>
+        <img src="assets/mindeaseai.png" alt="MindEase AI Chatbot Interface" class="hero-image">
+    </section>
+
+    <section id="problem" class="section">
+        <h2>The Mental Health Crisis We’re Solving</h2>
+        <p>Globally, over 70% with mental disorders receive no treatment (WHO, 2022). Stress and burnout affect individuals, leading to poor focus and crises, while organizations face low productivity and higher costs.</p>
+        <ul>
+            <li><strong>Affected Stakeholders:</strong> Students, professionals, caregivers.</li>
+            <li><strong>Root Causes:</strong> Limited real-time support, stigma, long wait times.</li>
+        </ul>
+    </section>
+
+    <section id="solution" class="section">
+        <h2>Our AI-Powered Solution</h2>
+        <p>An empathetic chatbot providing instant, personalized support, mood tracking, journaling, and gamified wellness check-ins.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Real-Time Chatbot</h3>
+                <p>Instant coping strategies tailored for young adults.</p>
+            </div>
+            <div class="feature">
+                <h3>Mood Tracking</h3>
+                <p>Charts and stress detection from text/voice.</p>
+            </div>
+            <div class="feature">
+                <h3>Journaling Assistant</h3>
+                <p>Reflective entries for emotional balance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section">
+        <h2>Try Our Chatbot Demo</h2>
+        <div class="chatbot">
+            <div id="chat-window"></div>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+    <h2>Meet the MindEase AI Team</h2>
+    <div class="team-members">
+        <div class="member">
+            <img src="assets/sailakshmi.png" alt="P Sai Lakshmi">
+            <h3>P Sai Lakshmi</h3>
+            <p>Front-End Developer | Programming Major</p>
+        </div>
+        <div class="member">
+            <img src="assets/noshini.png" alt="G Noshini">
+            <h3>G Noshini</h3>
+            <p>Back-End Developer | Programming Major</p>
+        </div>
+        <div class="member">
+            <img src="assets/vamsi.png" alt="P Vamsi">
+            <h3>P Vamsi</h3>
+            <p>Database Connection | Programming Major</p>
+        </div>
+    </div>
+    <p>Mentor: Dr. P. Vinay Kumar</p>
+</section>
+
+
+    <section id="pricing" class="section">
+        <h2>Affordable Access</h2>
+        <p>Subscription: ₹499/month per user. SaaS for B2B.</p>
+        <p>Year 1 Projections: 100 subscriptions, ₹4.8L revenue.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="signup-form">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Sign Up for Beta</button>
+        </form>
+        <p>Email: info@mindease.ai | Follow us on Instagram & LinkedIn</p>
+    </section>
+
+    <footer>
+        <p>Mission: Making mental health support accessible, affordable, and stigma-free for young adults worldwide.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
